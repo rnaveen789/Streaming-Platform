@@ -113,18 +113,20 @@ The platform includes the following main pages:
 > 2. Add PNG/JPG images named after each page (e.g., `login.png`, `register.png`, `index.png`, `profile.png`, `search.png`, `upload.png`, `edit.png`, `watch.png`).
 > 3. Replace the placeholder image links below with your actual screenshots.
 
-- ![Login Page](https://github.com/user-attachments/assets/67efecb6-7716-4b25-871f-b58e7498d6bd)
-- ![Register Page](https://github.com/user-attachments/assets/c56da307-f4c9-4752-bc62-21ea6272e192)
-- ![Home Page](https://github.com/user-attachments/assets/d4fc4fb0-2ea2-455c-81a8-f2b124bec367)
-- ![Video Upload Page](https://github.com/user-attachments/assets/088d09e3-186a-4899-8e66-403b837bf1d2)
-- ![Selecting Category](https://github.com/user-attachments/assets/9313711b-295b-4533-bcd9-40c07a3a5a1a)
-- ![Edit Vedio](https://github.com/user-attachments/assets/b31d2cd8-aea8-4110-935f-de27cff8daab)
-- ![Delete Video page](https://github.com/user-attachments/assets/942154eb-8bb3-41b5-899b-4d686efef113)
-- ![Home after SuccessFully deleted Video](https://github.com/user-attachments/assets/cae8bc11-496a-4223-9735-6bad8035f480)
-- ![Search page](https://github.com/user-attachments/assets/910dcccc-86f9-4844-b758-3c6fa587cb57)
-- ![Search Page 2](https://github.com/user-attachments/assets/36ce894e-d9f7-430e-8054-3a2429b93a7c)
-- ![Watch Video Screen recoding](https://github.com/user-attachments/assets/fdf6ca01-7f4c-4b38-b342-1b94ddf2e47c)
-- ![Profile Page](https://github.com/user-attachments/assets/fef0fdcb-c42b-48a5-8c17-e679ec4f9470)
+
+- ![LoginPage](https://github.com/user-attachments/assets/aeca0acc-1ff0-4c22-a0b6-17228739d3cd)
+- ![Register Page](https://github.com/user-attachments/assets/8a1b1c17-10d5-4d5c-b360-f6c7e4126044)
+- ![HomePage](https://github.com/user-attachments/assets/d8f02907-f5a6-453b-9601-78f4691108ba)
+- ![Upload Page](https://github.com/user-attachments/assets/0b735ff3-c9ae-4945-bcb4-6de4d048c020)
+- ![Selecting Category](https://github.com/user-attachments/assets/ba573416-8aee-4e6d-8e87-586e946dbabe)
+- ![Edit video](https://github.com/user-attachments/assets/c0150d2c-e50d-4f9c-9c4a-31b1e78d21ac)
+- ![Search page](https://github.com/user-attachments/assets/8c326032-dc20-469e-825a-d2d872a6db83)
+- ![Search Page 2](https://github.com/user-attachments/assets/a6c757ca-cd22-43f0-b65e-c9ec1713986c)
+- ![Delete Video page](https://github.com/user-attachments/assets/23b065ed-b96e-4307-b1a2-250ef7a18132)
+- ![Home after SuccessFully deleted](https://github.com/user-attachments/assets/4bf4a4d5-c047-4a2d-9418-1601097634b9)
+- [Watch Video Screen Recording](https://github.com/user-attachments/assets/4186eeb5-71b4-4567-975c-f270d9375fce)
+- ![Profile Page](https://github.com/user-attachments/assets/936fda98-417e-4555-8da0-7b42ee5c17cb)
+
 
 
 ## Database Models
