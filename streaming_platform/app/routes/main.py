@@ -1,6 +1,7 @@
 from flask import Blueprint, render_template, redirect, url_for
 from flask_login import login_required, current_user
 from app.models.video import Video, WatchHistory
+from flask import request
 
 bp = Blueprint('main', __name__)
 

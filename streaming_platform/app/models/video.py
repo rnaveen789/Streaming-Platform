@@ -12,7 +12,7 @@ class Video(db.Model):
     views = db.Column(db.Integer, default=0)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-    watch_history = db.relationship('WatchHistory', backref='video', lazy='dynamic')
+    watch_history = db.relationship('WatchHistory', backref='video', lazy='dynamic', cascade='all, delete-orphan')
 
     def get_related_videos(self, limit=5):
         # Example: return other videos by the same user, or just random videos
