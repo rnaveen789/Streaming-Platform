@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Edit Video</h2>
+    <form method="POST" class="mt-4">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="title" name="title" value="{{ video.title }}" required>
+        </div>
+        
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea class="form-control" id="description" name="description" rows="3">{{ video.description }}</textarea>
+        </div>
+        
+        <div class="mb-3">
+            <label for="category" class="form-label">Category</label>
+            <select class="form-select" id="category" name="category" required>
+                <option value="gaming" {% if video.category == 'gaming' %}selected{% endif %}>Gaming</option>
+                <option value="music" {% if video.category == 'music' %}selected{% endif %}>Music</option>
+                <option value="education" {% if video.category == 'education' %}selected{% endif %}>Education</option>
+                <option value="entertainment" {% if video.category == 'entertainment' %}selected{% endif %}>Entertainment</option>
+                <option value="sports" {% if video.category == 'sports' %}selected{% endif %}>Sports</option>
+                <option value="other" {% if video.category == 'other' %}selected{% endif %}>Other</option>
+            </select>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Update Video</button>
+        <a href="{{ url_for('video.watch', video_id=video.id) }}" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+{% endblock %} 
